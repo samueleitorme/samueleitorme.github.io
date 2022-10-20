@@ -1,0 +1,34 @@
+/* Colores que vamos a usar
+#c3cbd6 - azul
+#748b6f - verde
+#2a403d - negro
+#d05663 - rojo
+*/
+
+body{
+   background-color: #2a403d;
+   text-align: center;
+   font-family: 'Hack Nerd Font Mono', 'Fira Code', monospace;
+   color: #c3cbd6;
+}
+.titulo__h1{
+   font-size: 3em;
+   padding: 2% 0;
+   text-align: center;
+   font-family: 'Hack Nerd Font Mono', 'Fira Code', monospace;
+}
+.foto-perfil__div{
+   text-align: center;
+}
+.foto-perfil__img{
+   width: 15%;
+   border-radius: 100%;
+   box-shadow: 0 0 30px #202020;
+   transition: 300ms;
+}
+.foto-perfil__img:hover{
+   width: 20%;
+   box-shadow: 0 0 50px #c3cbd6;
+   background-color: #c3cbd6;
+   transition: 300ms;
+}
