@@ -21,13 +21,13 @@ body{
    text-align: center;
 }
 .foto-perfil__img{
-   width: 15%;
+   width: 6%;
    border-radius: 100%;
    box-shadow: 0 0 30px #202020;
    transition: 300ms;
 }
 .foto-perfil__img:hover{
-   width: 20%;
+   width: 8%;
    box-shadow: 0 0 50px #c3cbd6;
    background-color: #c3cbd6;
    transition: 300ms;
